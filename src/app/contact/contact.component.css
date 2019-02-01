@@ -1,0 +1,126 @@
+body{
+    height: 650px !important; 
+}
+.title{
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 250%;
+}
+.bar{
+    margin: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 10%;
+}
+#us{
+    color: rgb(254,253,2);
+}
+.full{
+    margin-top: 4%;
+    width: 100%;
+}
+
+/*infor contacts*/
+.left{
+    width: 50%;
+    float: left;
+    height: 450px !important;
+}
+h1{
+    color: white;
+}
+.adjust{
+    margin-left: 15%;
+}
+table{
+    border: 3px solid white;
+    margin:0%;
+    width: 90%;
+}
+.tr{
+    height: 100px !important;
+}
+.img{
+    width: 10%;
+}
+.con{
+    width: 100%;
+    float: left;
+
+}
+
+.inf{
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 110%;
+}
+.right{
+    float: left;
+    width: 50%;
+    height: 450px !important;
+}
+
+/*form*/
+.contactform{
+    margin:0%;
+    text-align: center;
+}
+input[type=text]{
+    margin: 2%;
+    height: 40px !important;
+    width: 60%;
+}
+input[type=email]{
+    margin: 2%;
+    height: 40px !important;
+    width: 60%;
+}
+textarea{
+    margin: 2%;
+    width: 60%;
+}
+input[type=checkbox]{
+    text-align: center;
+}
+.checkbox{
+    margin: 2%;
+}
+label{
+    font-size: 110%;
+    color: white;
+}
+button{
+    width: 60%;
+    height: 40px !important;
+    background-color:rgba(254, 254, 2, 0.87);
+    color: white;
+    font-size: 170%;
+    font-family: serif;
+    border: 3px solid white;
+}
+::placeholder {
+    font-size: 100%;
+    color: white;
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: 140%;
+    color: white;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-size: 140%;
+    color: white;
+}
+
+input, select, textarea{
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+    font-size: 140%;
+}

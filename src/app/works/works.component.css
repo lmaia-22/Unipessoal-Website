@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(78, 78, 78);
+    height: 650px !important; 
+}
+
+#space{
+    height: 5%;
+}
+
+.two{
+    margin-top: 0%;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-size: 250%;
+}
+.bar{
+    margin: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 10%;
+}
+
+#us{
+    color: rgb(254,253,2);
+}
+
+.six{
+    margin-top: 1%;
+}
+
+tr{
+    height: 200px !important;
+    margin:0%;
+}
+
+td{
+    width: calc(100%/3);
+    border: 3px solid black;
+    height: 100px !important;
+}
+
+.icon > img{
+    width: 250px !important;
+    height: 200px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+td:hover{
+    background-color: grey; 
+}

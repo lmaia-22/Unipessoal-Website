@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(129, 129, 129);
+    height: 800px !important;
+}
+#space{
+    height: 2%;
+}
+.two{
+    margin-top: 3%;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 250%;
+}
+.bar{
+    margin: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 10%;
+}
+
+#us{
+    color: rgb(254,253,2);
+}
+
+/*left chart*/
+.size, .text{
+    margin-top:2%; 
+    width: 80%;
+    height: 400px !important; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.text{
+    position: relative;
+    top: -400px !important;
+}
+.text > p{
+    text-align: center;
+    color: white;
+    font-size: 130%;
+}
+
+

@@ -1,0 +1,28 @@
+<body>
+  <div id="space"></div>
+    <div class="two">
+        <div class="title">
+          <span><b>Nossa </b></span>
+          <span id="us"><b>Habilidade</b></span>
+        </div>
+        <div class="bar">
+          <img class="bar" src="../../assets/Icons/bar_title.png">
+        </div>
+    </div> 
+
+          <div class="size">
+             <!-- <div id="chartContainer"></div>  -->
+             <canvas baseChart
+          [datasets]="barChartData"
+          [labels]="barChartLabels"
+          [options]="barChartOptions"
+          [legend]="barChartLegend"
+          [colors]="lineChartColors"
+          [chartType]="barChartType"></canvas>
+
+          <div class="text">
+            <p>As nossas aptidões aumentam exponencialmente</p>
+            <p>para sermos capazes de responder ao pedido do cliente</p>
+          </div>
+        </div>
+</body>

@@ -1,0 +1,84 @@
+<body id="contact">
+    <div class="two">
+      <div class="title">
+        <span><b>Entre em </b></span>
+        <span id="us"><b>Contacto</b></span>
+      </div>
+      <div class="bar">
+        <img class="bar" src="../../assets/Icons/bar_title.png">
+      </div>
+    </div>  
+
+<div class="full">
+<!-- Contacts-->    
+  <div class="left">
+      <div class="adjust">
+    <h1>Contactos</h1>
+      <table>
+        <tr class="tr">
+          <td class="img">
+              <img class="con" src="../../assets/Icons/contact-1.svg">
+          </td>
+          <td>
+              <span class="inf">Rua Doutor Rocha Peixoto, Nº 90, 4700-033 Braga</span>           
+          </td>
+        </tr>
+        <tr class="tr">
+          <td class="img">
+              <img class="con" src="../../assets/Icons/contact-2.svg">
+          </td>
+          <td>
+              <span class="inf">+351 227 912 345</span>
+          </td>
+        </tr>
+        <tr class="tr">
+          <td class="img">
+              <img class="con" src="../../assets/Icons/contact-3.svg">
+          </td>
+          <td>
+              <span class="inf">unipessoal@gmail.com</span>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="right">
+    
+        <!-- Default form contact -->
+<form class="contactform" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  
+    <!-- Name -->
+    <input type="text" formControlName="contactFormName" id="defaultContactFormName" mdbInputDirective
+      class="form-control mb-4" placeholder="Name">
+  
+    <!-- Email -->
+    <input type="email" formControlName="contactFormEmail" id="defaultContactFormEmail" mdbInputDirective
+      class="form-control mb-4" placeholder="E-mail">
+  
+    <!-- Subject -->
+    <input type="text" formControlName="contactFormSubjects" id="defaultContactFormSubject" mdbInputDirective
+      class="form-control mb-4" placeholder="Assunto">
+  
+    <!-- Message -->
+    <div class="form-group">
+      <textarea formControlName="contactFormMessage" class="form-control rounded-0" mdbInputDirective id="exampleFormControlTextarea2"
+        rows="3" placeholder="Mensagem"></textarea>
+    </div>
+  
+    <!-- Copy -->
+    <div class="checkbox">
+      <input formControlName="contactFormCopy" type="checkbox" class="custom-control-input" id="defaultContactFormCopy">
+      <label class="custom-control-label" for="defaultContactFormCopy">Receber cópia deste email</label>
+    </div>
+  
+    <!-- Send button -->
+    <button mdbBtn color="info" outline="true" block="true" class="z-depth-0 my-4 waves-effect"
+      mdbWavesEffect type="submit" [disabled]="disabledSubmitButton">ENVIAR</button>
+  
+  </form>
+  <!-- Default form contact -->
+
+  </div>
+</div>
+</body>

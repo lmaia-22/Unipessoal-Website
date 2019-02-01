@@ -1,0 +1,41 @@
+.divider{
+    margin-top: 0%;
+    background:url("../../assets/Img/div.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+tr{
+    height: 150px !important;
+    margin:0%;
+}
+
+td{
+    width: calc(100%/4);
+    border: 0px solid black;
+    background-color: #2D2E2E;
+    margin-left: 200%;
+    height: 150px !important;
+}
+
+.icon{
+    width: 65px !important;
+    height: 65px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: block;
+}
+
+.Stitle{
+    margin-top: 0%;
+    margin-bottom: 0%; 
+    text-align: center;
+    color: white;
+    font-size: 140%;
+}
+
+.Stitle > p{
+    margin:0%;
+}

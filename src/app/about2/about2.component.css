@@ -1,0 +1,40 @@
+.about2{
+    margin-top: 10%;
+    height: 450px; 
+    width: 100%;
+}
+
+.left{
+    width: 50%;
+    float: left;
+    height: 403px !important;
+    background-color: dimgray;
+}
+
+#l{
+    width: 100%;
+}
+
+.right{
+    float: left;
+    width: 50%;
+    background-color: dimgray;
+    height: 403px !important;
+}
+.title{
+    margin-top: 4%; 
+    text-align: center;
+    color: white;
+    font-size: 180%;
+}
+.text{
+    margin-top: 5%;
+    margin-left: 2%;
+    text-align: left;
+    color: rgb(184, 183, 183);
+    font-size: 130%;
+}
+#space{
+    height: 10px !important;
+}
+
