@@ -7,7 +7,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class ConnectionService {
 
-  url: string = 'https://lmaia-22.github.io/Unipessoal-Website/send';
+  url: string = 'https://localhost:3000/send';
 constructor(private http: HttpClient) { }
 
 sendMessage(messageContent: any) {
