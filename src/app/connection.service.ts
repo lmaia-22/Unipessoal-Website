@@ -7,7 +7,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class ConnectionService {
 
-  url: string = 'https://smtp-node-server.herokuapp.com/send';
+  url: string = 'https://smtp-uni.herokuapp.com//send';
 constructor(private http: HttpClient) { }
 
 sendMessage(messageContent: any) {
