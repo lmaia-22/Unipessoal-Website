@@ -13,32 +13,35 @@
         background-size: cover;
       animation:fade 8s infinite;
   -webkit-animation:fade 8s infinite;
-  
   } 
+  
   .slide2 {
     background: url(../../assets/Img/second.jpg)no-repeat center;
         background-size: cover;
       animation:fade2 8s infinite;
   -webkit-animation:fade2 8s infinite;
   }
+
   .slide3 {
       background: url(../../assets/Img/third.jpg)no-repeat center;
         background-size: cover;
       animation:fade3 8s infinite;
   -webkit-animation:fade3 8s infinite;
   }
+  
   .slide4 {
     background: url(../../assets/Img/fourth.jpg)no-repeat center;
       background-size: cover;
     animation:fade3 8s infinite;
 -webkit-animation:fade3 8s infinite;
-}
-.slide5 {
+} 
+ .slide5 {
     background: url(../../assets/Img/fifhty.jpg)no-repeat center;
       background-size: cover;
     animation:fade3 8s infinite;
 -webkit-animation:fade3 8s infinite;
-}
+} 
+
   @keyframes fade
   {
     0%   {opacity:1}
