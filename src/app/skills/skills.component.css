@@ -45,4 +45,69 @@ body{
     font-size: 130%;
 }
 
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .title{
+        margin-top: 3%;
+        text-align: center;
+        color: white;
+        font-size: 100%;
+    }
+    .bar{
+        margin: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 5%;
+    }
+    #us{
+        color: rgb(254,253,2);
+    }
+    body{
+        background-color: rgb(129, 129, 129);
+        height: 250px !important;
+    }
+    #sapce{
+        margin: 1%;
+        height: 20px;
+    }
+    .two{
+        margin-top: 4%;
+    }
+    
+    /*left chart*/
+    .size, .text{
+        margin-top:2%; 
+        width: 80%;
+        height: 200px !important; 
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .text{
+        position: relative;
+        top: -130px !important;
+    }
+    .text > p{
+        text-align: center;
+        color: white;
+        font-size: 30%;
+    }
+    
+  }
+
 

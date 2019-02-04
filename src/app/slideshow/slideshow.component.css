@@ -73,3 +73,174 @@
   66.666% { opacity: 0}
   100% { opacity: 0}
 }
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .slider {
+    max-width: 100%;
+    height: 400px !important;
+    margin: 0%;
+  }
+
+  .slide1,.slide2,.slide3,.slide4,.slide5 {
+    position: absolute;
+    width: 100%;
+    height: 400px !important;
+  }
+  .slide1 {
+    background: url(../../assets/Img/first.png)no-repeat center;
+        background-size: cover;
+      animation:fade1 16s infinite;
+  -webkit-animation:fade1 16s infinite;
+  } 
+  .slide2 {
+    background: url(../../assets/Img/second.png)no-repeat center;
+        background-size: cover;
+      animation:fade2 8s infinite;
+  -webkit-animation:fade2 8s infinite;
+  }
+  .slide3 {
+      background: url(../../assets/Img/third.png)no-repeat center;
+        background-size: cover;
+      animation:fade3 8s infinite;
+  -webkit-animation:fade3 8s infinite;
+  }
+  .slide4 {
+    background: url(../../assets/Img/fourth.png)no-repeat center;
+      background-size: cover;
+    animation:fade4 8s infinite;
+  -webkit-animation:fade4 8s infinite;
+  }
+  .slide5 {
+    background: url(../../assets/Img/fifhty.png)no-repeat center;
+      background-size: cover;
+    animation:fade5 20s infinite;
+  -webkit-animation:fade5 20s infinite;
+  }
+  @keyframes fade
+  {
+    0%   {opacity:1}
+    33.333% { opacity: 0}
+    66.666% { opacity: 0}
+    100% { opacity: 1}
+  }
+  @keyframes fade2
+  {
+    0%   {opacity:0}
+    33.333% { opacity: 1}
+    66.666% { opacity: 0 }
+    100% { opacity: 0}
+  }
+  @keyframes fade3
+  {
+    0%   {opacity:0}
+    33.333% { opacity: 0}
+    66.666% { opacity: 1}
+    100% { opacity: 0}
+  }
+  @keyframes fade4
+  {
+    0%   {opacity:0}
+    33.333% { opacity: 0}
+    66.666% { opacity: 0}
+    100% { opacity: 1}
+  }
+  @keyframes fade5
+  {
+    0%   {opacity:1}
+    33.333% { opacity: 0}
+    66.666% { opacity: 0}
+    100% { opacity: 0}
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .slider {
+    width: 100%;
+    height: 200px !important;
+    margin: 0%;
+  }
+
+  .slide1,.slide2,.slide3,.slide4,.slide5 {
+    position: absolute;
+    width: 100%;
+    height: 200px !important;
+  }
+  .slide1 {
+    background: url(../../assets/Img/first.png)no-repeat center;
+        background-size: cover;
+      animation:fade1 16s infinite;
+  -webkit-animation:fade1 16s infinite;
+  } 
+  .slide2 {
+    background: url(../../assets/Img/second.png)no-repeat center;
+        background-size: cover;
+      animation:fade2 8s infinite;
+  -webkit-animation:fade2 8s infinite;
+  }
+  .slide3 {
+      background: url(../../assets/Img/third.png)no-repeat center;
+        background-size: cover;
+      animation:fade3 8s infinite;
+  -webkit-animation:fade3 8s infinite;
+  }
+  .slide4 {
+    background: url(../../assets/Img/fourth.png)no-repeat center;
+      background-size: cover;
+    animation:fade4 8s infinite;
+  -webkit-animation:fade4 8s infinite;
+  }
+  .slide5 {
+    background: url(../../assets/Img/fifhty.png)no-repeat center;
+      background-size: cover;
+    animation:fade5 20s infinite;
+  -webkit-animation:fade5 20s infinite;
+  }
+  @keyframes fade
+  {
+    0%   {opacity:1}
+    33.333% { opacity: 0}
+    66.666% { opacity: 0}
+    100% { opacity: 1}
+  }
+  @keyframes fade2
+  {
+    0%   {opacity:0}
+    33.333% { opacity: 1}
+    66.666% { opacity: 0 }
+    100% { opacity: 0}
+  }
+  @keyframes fade3
+  {
+    0%   {opacity:0}
+    33.333% { opacity: 0}
+    66.666% { opacity: 1}
+    100% { opacity: 0}
+  }
+  @keyframes fade4
+  {
+    0%   {opacity:0}
+    33.333% { opacity: 0}
+    66.666% { opacity: 0}
+    100% { opacity: 1}
+  }
+  @keyframes fade5
+  {
+    0%   {opacity:1}
+    33.333% { opacity: 0}
+    66.666% { opacity: 0}
+    100% { opacity: 0}
+  }
+  
+}

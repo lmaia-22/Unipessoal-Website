@@ -124,3 +124,150 @@ input, select, textarea{
     color: white;
     font-size: 140%;
 }
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    body{
+        height: 250px !important; 
+    }
+    .title{
+        margin-top: 2%;
+        text-align: center;
+        color: white;
+        font-size: 100%;
+    }
+    .bar{
+        margin: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 5%;
+    }
+    #us{
+        color: rgb(254,253,2);
+    }
+    .full{
+        margin-top: 3%;
+        width: 100%;
+    }
+    
+    /*infor contacts*/
+    .left{
+        width: 50%;
+        float: left;
+        height: 150px !important;
+    }
+    h1{
+        color: white;
+        font-size: 80%;
+    }
+    .adjust{
+        margin-left: 3%;
+    }
+    table{
+        border: 2px solid white;
+        margin:0%;
+        width: 90%;
+    }
+    .tr{
+        height: 40px !important;
+    }
+    .img{
+        width: 10%;
+    }
+    .con{
+        width: 100%;
+        float: left;  
+    }
+    .inf{
+        text-align: center;
+        float: left;
+        color: white;
+        font-size: 30%;
+    }
+    .right{
+        float: left;
+        width: 50%;
+        height: 150px !important;
+    }
+    
+    /*form*/
+    .contactform{
+        margin:0%;
+        text-align: center;
+    }
+    input[type=text]{
+        margin: 2%;
+        height: 10px !important;
+        width: 60%;
+    }
+    input[type=email]{
+        margin: 2%;
+        height: 10px !important;
+        width: 60%;
+    }
+    textarea{
+        margin: 2%;
+        width: 60%;
+    }
+    input[type=checkbox]{
+        text-align: center;
+    }
+    .checkbox{
+        margin: 2%;
+    }
+    label{
+        font-size: 110%;
+        color: white;
+    }
+    button{
+        width: 60%;
+        height: 15px !important;
+        background-color:rgba(254, 254, 2, 0.87);
+        text-align: center;
+        color: white;
+        font-size: 10%;
+        font-family: serif;
+        border: 2px solid white;
+    }
+    #btntext{
+        font-size: 20%;
+    }
+    ::placeholder {
+        font-size: 30%;
+        color: white;
+        opacity: 1; /* Firefox */
+    }
+      
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        font-size: 30%;
+        color: white;
+    }
+      
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        font-size: 30%;
+        color: white;
+    }
+    
+    input, select, textarea{
+        border: 3px solid white;
+        background: transparent;
+        color: white;
+        font-size: 30%;
+    }
+
+}

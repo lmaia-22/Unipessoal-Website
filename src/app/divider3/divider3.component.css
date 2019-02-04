@@ -39,3 +39,62 @@ td{
 .Stitle > p{
     margin:0%;
 }
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .divider{
+        height: 100px;
+        margin: 0%;
+        background:url("../../assets/Img/div.png");
+        background-repeat:no-repeat;
+        background-size:100% 80px;
+    }
+    table{
+        border-spacing: 12px;
+    }
+    
+    tr{
+        height: 50px !important;
+    }
+    
+    td{
+        width: calc(100%/4);
+        background-color: #2D2E2E;
+        margin-left: 200%;
+        height: 50px !important;
+    }
+    
+    .icon{
+        width: 35px !important;
+        height: 35px !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        display: block;
+    }
+    
+    .Stitle{
+        margin-top: 0%;
+        margin-bottom: 0%; 
+        text-align: center;
+        color: white;
+        font-size: 40%;
+    }
+    
+    .Stitle > p{
+        margin:0%;
+    }
+}
