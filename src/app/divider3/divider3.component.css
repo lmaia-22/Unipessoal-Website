@@ -41,14 +41,6 @@ td{
 }
 
 /* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-    
-}
-
-/* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
@@ -62,7 +54,7 @@ td{
         background-size:100% 80px;
     }
     table{
-        border-spacing: 12px;
+        border-spacing: 14px;
     }
     
     tr{
@@ -92,6 +84,55 @@ td{
         text-align: center;
         color: white;
         font-size: 40%;
+    }
+    
+    .Stitle > p{
+        margin:0%;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .divider{
+        height: 120px;
+        margin: 0%;
+        background:url("../../assets/Img/div.png");
+        background-repeat:no-repeat;
+        background-size:100% 100px;
+    }
+    table{
+        border-spacing: 20px;
+    }
+    
+    tr{
+        height: 25px !important;
+    }
+    
+    td{
+        width: calc(100%/4);
+        background-color: #2D2E2E;
+        height: 25px !important;
+    }
+    
+    .icon{
+        width: 40px !important;
+        height: 40px !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        display: block;
+    }
+    
+    .Stitle{
+        margin-top: 0%;
+        margin-bottom: 0%; 
+        text-align: center;
+        color: white;
+        font-size: 50%;
     }
     
     .Stitle > p{

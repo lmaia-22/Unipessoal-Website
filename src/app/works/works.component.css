@@ -57,14 +57,6 @@ td:hover{
 }
 
 /* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-    
-}
-
-/* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
@@ -76,7 +68,7 @@ td:hover{
         height: 250px !important; 
     }
     .title{
-        margin-top: 2%;
+        margin-top: 0%;
         text-align: center;
         color: white;
         font-size: 100%;
@@ -102,7 +94,7 @@ td:hover{
     }
 
     .six{
-        margin-top: 1%;
+        margin-top: 0%;
     }
     
     tr{
@@ -128,4 +120,68 @@ td:hover{
         background-color: grey; 
     }
 
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    
+    body{
+        background-color: rgb(78, 78, 78);
+        height: 450px !important; 
+    }
+    .title{
+        margin-top: 2%;
+        text-align: center;
+        color: white;
+        font-size: 120%;
+    }
+    .bar{
+        margin: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 5%;
+    }
+    #us{
+        color: rgb(254,253,2);
+    }
+    
+    #space{
+        height: 5%;
+    }
+    
+    .two{
+        margin-top: 0%;
+    }
+
+    .six{
+        margin-top: 0%;
+    }
+    
+    tr{
+        height: 100px !important;
+        margin:0%;
+    }
+    
+    td{
+        width: calc(100%/3);
+        border: 3px solid black;
+        height: 100px !important;
+    }
+    
+    .icon > img{
+        width: 100px !important;
+        height: 100px !important;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    td:hover{
+        background-color: grey; 
+    }
 }

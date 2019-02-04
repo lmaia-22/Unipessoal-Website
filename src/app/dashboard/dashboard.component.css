@@ -45,20 +45,7 @@ p{
 p:hover{
     color: rgb(254,253,2);
 }
-
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
     
-  }
-
-
-
-  
-  
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
@@ -114,3 +101,59 @@ p:hover{
     }
     
   }
+
+
+  /* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+ 
+    .nav{
+        overflow: hidden;
+        background-color: #333;
+        position: sticky; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        margin:0%;
+        width: 100%;
+        height: 25px !important;
+        background: #2D2E2E;
+        opacity: 0.8;
+    }
+    #side{
+        float: left;
+        width: 50%;
+    }
+    
+    #logo{
+        float: left;
+        width: 40%;
+    }
+
+    nav {
+        background: #2D2E2E;
+        width: 100%;
+    }
+    ul{
+        list-style-type: none;
+        margin:0%;
+    }
+    
+    li{
+        display: inline-block;
+        text-align: center;
+        padding-left: 2%;
+    }
+    a{
+        color: white;
+    }
+    p{
+        color: white; 
+        font-size: 50%;
+        display: inline-block;
+        text-align: center; 
+    }
+    p:hover{
+        color: rgb(254,253,2);
+    }
+}
