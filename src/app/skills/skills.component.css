@@ -50,7 +50,7 @@ body{
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 480px) {
   
     .title{
         margin-top: 3%;
@@ -92,7 +92,7 @@ body{
     }
     .text{
         position: relative;
-        top: -130px !important;
+        top: -110px !important;
     }
     .text > p{
         text-align: center;

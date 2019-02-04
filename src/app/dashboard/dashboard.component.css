@@ -51,7 +51,7 @@ p:hover{
     ##Screen = B/w 320px to 479px
   */
   
-  @media (min-width: 319px) and (max-width: 480px) {
+  @media (min-width: 300px) and (max-width: 480px) {
 
     .nav{
         overflow: hidden;

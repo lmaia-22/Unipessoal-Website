@@ -10,19 +10,11 @@ img{
 }
 
 /* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-    
-}
-
-/* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 480px) {
     div{
         width: 100%;
         background-color: #2D2E2E;
@@ -32,5 +24,22 @@ img{
         margin-left: auto;
         margin-right: auto;  
         width: 15%;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+    div{
+        width: 100%;
+        background-color: #2D2E2E;
+    }
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;  
+        width: 20%;
     }
 }
