@@ -109,7 +109,7 @@ td{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 25%;
+        width: 35%;
     }    
     .Stitle{
         text-align: center;
@@ -120,7 +120,7 @@ td{
     .text{
         color: white;
         text-align: center;
-        font-size: 53%;
+        font-size: 45%;
     }
     
     /*animation*/
