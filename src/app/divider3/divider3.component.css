@@ -97,7 +97,7 @@ td{
 */
 @media (min-width: 481px) and (max-width: 767px) {
     .divider{
-        height: 120px;
+        height: 150px;
         margin: 0%;
         background:url("../../assets/Img/div.png");
         background-repeat:no-repeat;
