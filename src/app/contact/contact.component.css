@@ -130,7 +130,7 @@ input, select, textarea{
   ##Screen = B/w 300px to 479px
 */
 
-@media (min-width: 300px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
     body{
         height: 250px !important; 
