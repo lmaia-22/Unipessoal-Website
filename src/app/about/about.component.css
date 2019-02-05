@@ -45,14 +45,15 @@ td{
 .Stitle{
     text-align: center;
     color: gray;
-    font-size: 140%;
+    font-size: 150%;
     margin:5%;
 }
 
 .text{
     color: white;
     text-align: center;
-    line-height: 12px;
+    font-size: 110%;
+    line-height: 25px;
 }
 
 /*animation*/
