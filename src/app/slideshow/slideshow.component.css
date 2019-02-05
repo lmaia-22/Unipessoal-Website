@@ -74,7 +74,7 @@
   100% { opacity: 0}
 }
 
-@media (width : 375px) and (height : 812px){
+@media (min-width : 374px) and (max-width : 376px){
 
   .slider {
     width: 100%;
