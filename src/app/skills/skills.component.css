@@ -1,6 +1,6 @@
 body{
     background-color: rgb(129, 129, 129);
-    height: 800px !important;
+    height: 800px ;
 }
 #sapce{
     margin: 1%;
@@ -31,14 +31,14 @@ body{
 .size, .text{
     margin-top:2%; 
     width: 80%;
-    height: 400px !important; 
+    height: 400px ; 
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 .text{
     position: relative;
-    top: -480px !important;
+    top: -480px ;
 }
 .text > p{
     text-align: center;
@@ -70,7 +70,7 @@ body{
     }
     body{
         background-color: rgb(129, 129, 129);
-        height: 250px !important;
+        height: 250px ;
     }
     #space{
         margin: 1%;
@@ -84,14 +84,14 @@ body{
     .size, .text{
         margin-top:2%; 
         width: 80%;
-        height: 200px !important; 
+        height: 200px ; 
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
     .text{
         position: relative;
-        top: -90px !important;
+        top: -90px ;
     }
     .text > p{
         text-align: center;
@@ -125,7 +125,7 @@ body{
     }
     body{
         background-color: rgb(129, 129, 129);
-        height: 250px !important;
+        height: 250px ;
     }
     #space{
         margin: 1%;
@@ -139,14 +139,14 @@ body{
     .size, .text{
         margin-top:2%; 
         width: 80%;
-        height: 200px !important; 
+        height: 200px ; 
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
     .text{
         position: relative;
-        top: -110px !important;
+        top: -110px ;
     }
     .text > p{
         text-align: center;
@@ -182,7 +182,7 @@ body{
 }
 body{
     background-color: rgb(129, 129, 129);
-    height: 380px !important;
+    height: 380px ;
     }
 #space{
     width: 100%;
@@ -196,14 +196,14 @@ body{
 .size, .text{
     margin-top:2%; 
     width: 80%;
-    height: 200px !important; 
+    height: 200px ; 
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
     .text{
         position: relative;
-        top: -165px !important;
+        top: -165px ;
     }
     .text > p{
         text-align: center;

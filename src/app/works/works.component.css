@@ -1,6 +1,6 @@
 body{
     background-color: rgb(78, 78, 78);
-    height: 650px !important; 
+    height: 650px ; 
 }
 
 #space{
@@ -34,19 +34,19 @@ body{
 }
 
 tr{
-    height: 200px !important;
+    height: 200px ;
     margin:0%;
 }
 
 td{
     width: calc(100%/3);
     border: 3px solid black;
-    height: 100px !important;
+    height: 100px ;
 }
 
 .icon > img{
-    width: 250px !important;
-    height: 200px !important;
+    width: 250px ;
+    height: 200px ;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -64,7 +64,7 @@ td:hover{
 @media (min-width: 220px) and (max-width: 319px) {
     body{
         background-color: rgb(78, 78, 78);
-        height: 250px !important; 
+        height: 250px ; 
     }
     .title{
         margin-top: 0%;
@@ -96,19 +96,19 @@ td:hover{
         border-spacing:20px;
     }
     tr{
-        height: 50px !important;
+        height: 50px ;
         margin:0%;
     }
     
     td{
         width: calc(100%/3);
         border: 2px solid black;
-        height: 50px !important;
+        height: 50px ;
     }
     
     .icon > img{
-        width: 50px !important;
-        height: 50px !important;
+        width: 50px ;
+        height: 50px ;
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -129,7 +129,7 @@ td:hover{
 
     body{
         background-color: rgb(78, 78, 78);
-        height: 250px !important; 
+        height: 250px ; 
     }
     .title{
         margin-top: 0%;
@@ -162,19 +162,19 @@ td:hover{
     }
     
     tr{
-        height: 50px !important;
+        height: 50px ;
         margin:0%;
     }
     
     td{
         width: calc(100%/3);
         border: 3px solid black;
-        height: 50px !important;
+        height: 50px ;
     }
     
     .icon > img{
-        width: 50px !important;
-        height: 50px !important;
+        width: 50px ;
+        height: 50px ;
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -194,7 +194,7 @@ td:hover{
     
     body{
         background-color: rgb(78, 78, 78);
-        height: 450px !important; 
+        height: 450px ; 
     }
     .title{
         margin-top: 2%;
@@ -227,19 +227,19 @@ td:hover{
     }
     
     tr{
-        height: 100px !important;
+        height: 100px ;
         margin:0%;
     }
     
     td{
         width: calc(100%/3);
         border: 3px solid black;
-        height: 100px !important;
+        height: 100px ;
     }
     
     .icon > img{
-        width: 100px !important;
-        height: 100px !important;
+        width: 100px ;
+        height: 100px ;
         margin-left: auto;
         margin-right: auto;
         display: block;

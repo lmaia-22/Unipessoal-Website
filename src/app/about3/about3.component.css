@@ -1,6 +1,6 @@
 .about3{
     margin-top: 2%;
-    height: 450px !important;  
+    height: 450px ;  
     width: 100%;
 }
 
@@ -8,19 +8,19 @@
     float: left;
     background-color: dimgray;
     width: 50%;    
-    height: 403px !important;
+    height: 403px ;
 }
 
 img{
     width: 100%;
-    height: 403px !important;
+    height: 403px ;
 }
 
 .left{
     float: left;
     width: 50%;
     background-color: dimgray;
-    height: 403px !important;
+    height: 403px ;
 }
 .title{
     margin-top: 4%; 
@@ -38,57 +38,9 @@ img{
 }
 
 #space{
-    height: 20px !important;
+    height: 20px ;
 }
 
-/*Iphone X*/
-
-@media (width : 375px) and (height : 812px){
-
-    .about3{
-        margin: 0%;
-        height: 300px !important;  
-        width: 100%;
-    }
-    
-    .right{
-        float: left;
-        background-color: dimgray;
-        width: 50%;    
-        height: 253px !important;
-    }
-    
-    img{
-        width: 100%;
-        height: 253px !important;
-    }
-    
-    .left{
-        float: left;
-        width: 50%;
-        background-color: dimgray;
-        height: 253px !important;
-    }
-    .title{
-        margin-top: 4%; 
-        text-align: center;
-        color: white;
-        font-size: 60%;
-    }
-    
-    .text{
-        margin-top: 5%;
-        margin-left: 2%; 
-        text-align: left;
-        color: rgb(184, 183, 183);
-        font-size: 50%;
-    }
-    
-    #space{
-        height: 5px !important;
-    }
-
-}
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -98,7 +50,7 @@ img{
 @media (min-width: 220px) and (max-width: 319px) {
     .about3{
         margin: 0%;
-        height: 150px !important;  
+        height: 150px ;  
         width: 100%;
     }
     
@@ -106,19 +58,19 @@ img{
         float: left;
         background-color: dimgray;
         width: 50%;    
-        height: 133px !important;
+        height: 133px ;
     }
     
     img{
         width: 100%;
-        height: 133px !important;
+        height: 133px ;
     }
     
     .left{
         float: left;
         width: 50%;
         background-color: dimgray;
-        height: 133px !important;
+        height: 133px ;
     }
     .title{
         margin-top: 4%; 
@@ -136,19 +88,17 @@ img{
     }
     
     #space{
-        height: 10px !important;
+        height: 10px ;
     }
 }
 
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
+/*Iphone X*/
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width : 331px) and (max-width : 380px){
+
     .about3{
         margin: 0%;
-        height: 200px !important;  
+        height: 300px ;  
         width: 100%;
     }
     
@@ -156,19 +106,70 @@ img{
         float: left;
         background-color: dimgray;
         width: 50%;    
-        height: 153px !important;
+        height: 253px ;
     }
     
     img{
         width: 100%;
-        height: 153px !important;
+        height: 253px ;
     }
     
     .left{
         float: left;
         width: 50%;
         background-color: dimgray;
-        height: 153px !important;
+        height: 253px ;
+    }
+    .title{
+        margin-top: 4%; 
+        text-align: center;
+        color: white;
+        font-size: 60%;
+    }
+    
+    .text{
+        margin-top: 5%;
+        margin-left: 2%; 
+        text-align: left;
+        color: rgb(184, 183, 183);
+        font-size: 50%;
+    }
+    
+    #space{
+        height: 5px ;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 381px) and (max-width: 480px) {
+    .about3{
+        margin: 0%;
+        height: 200px ;  
+        width: 100%;
+    }
+    
+    .right{
+        float: left;
+        background-color: dimgray;
+        width: 50%;    
+        height: 153px ;
+    }
+    
+    img{
+        width: 100%;
+        height: 153px ;
+    }
+    
+    .left{
+        float: left;
+        width: 50%;
+        background-color: dimgray;
+        height: 153px ;
     }
     .title{
         margin-top: 4%; 
@@ -186,7 +187,7 @@ img{
     }
     
     #space{
-        height: 10px !important;
+        height: 10px ;
     }
 }
 
@@ -197,7 +198,7 @@ img{
 @media (min-width: 481px) and (max-width: 767px) {
     .about3{
         margin: 0%;
-        height: 300px !important;  
+        height: 300px ;  
         width: 100%;
     }
     
@@ -205,19 +206,19 @@ img{
         float: left;
         background-color: dimgray;
         width: 50%;    
-        height: 253px !important;
+        height: 253px ;
     }
     
     img{
         width: 100%;
-        height: 253px !important;
+        height: 253px ;
     }
     
     .left{
         float: left;
         width: 50%;
         background-color: dimgray;
-        height: 253px !important;
+        height: 253px ;
     }
     .title{
         margin-top: 4%; 
@@ -235,6 +236,6 @@ img{
     }
     
     #space{
-        height: 5px !important;
+        height: 5px ;
     }
 }
