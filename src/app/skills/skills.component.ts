@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as CanvasJS from '../../assets/JS/canvasjs.min.js';
-import { Options } from 'selenium-webdriver/safari';
+
 
 @Component({
   selector: 'app-skills',
