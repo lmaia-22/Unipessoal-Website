@@ -412,14 +412,14 @@ input, select, textarea{
         margin-top: 2%;
         text-align: center;
         color: white;
-        font-size: 130%;
+        font-size: 150%;
     }
     .bar{
-        margin: 0%;
+        margin: 1%;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 40%;
+        width: 35%;
         height: 5%;
     }
     #us{
@@ -503,11 +503,11 @@ input, select, textarea{
     }
     button{
         width: 60%;
-        height: 15px ;
+        height: 30px ;
         background-color:rgba(254, 254, 2, 0.87);
         text-align: center;
         color: white;
-        font-size: 10%;
+        font-size: 100%;
         font-family: serif;
         border: 3px solid white;
     }

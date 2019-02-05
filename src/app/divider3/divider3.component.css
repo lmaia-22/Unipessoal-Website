@@ -200,20 +200,20 @@ td{
         margin: 0%;
         background:url("https://tituloseassuntos.tk/assets/Img/div.png");
         background-repeat:no-repeat;
-        background-size:100% 100px;
+        background-size:100% 130px;
     }
     table{
-        border-spacing: 20px;
+        border-spacing: 30px;
     }
     
     tr{
-        height: 25px ;
+        height: 60px ;
     }
     
     td{
         width: calc(100%/4);
         background-color: #2D2E2E;
-        height: 25px ;
+        height: 60px ;
     }
     
     .icon{

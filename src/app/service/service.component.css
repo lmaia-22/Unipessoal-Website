@@ -190,14 +190,14 @@ td:hover{
         margin-top: 2%;
         text-align: center;
         color: white;
-        font-size: 120%;
+        font-size: 150%;
     }
     .bar{
-        margin: 0%;
+        margin: 1%;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 40%;
+        width: 35%;
         height: 5%;
     }
     #us{
@@ -209,19 +209,19 @@ td:hover{
     }
     
     tr{
-        height: 85px ;
+        height: 105px ;
         margin:0%;
     }
     td{
         width: calc(100%/3);
         border: 3px solid black;
         background-color: #2D2E2E;
-        height: 35px ;
+        height: 50px ;
     }
     
     .icon{
-        width: 25px ;
-        height: 25px ;
+        width: 45px ;
+        height: 45px ;
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -231,7 +231,7 @@ td:hover{
         margin-top: 5%;
         text-align: center;
         color: white;
-        font-size: 60%;
+        font-size: 80%;
     }
     
     .Stitle > p{

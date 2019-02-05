@@ -167,14 +167,14 @@ body{
     margin-top: 2%;
     text-align: center;
     color: white;
-    font-size: 120%;
+    font-size: 150%;
 }
 .bar{
-    margin: 0%;
+    margin: 1%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 35%;
     height: 5%;
 }
 #us{
@@ -203,12 +203,12 @@ body{
 }
     .text{
         position: relative;
-        top: -165px ;
+        top: -245px ;
     }
     .text > p{
         text-align: center;
         color: white;
-        font-size: 60%;
+        font-size: 90%;
     }
 }
 

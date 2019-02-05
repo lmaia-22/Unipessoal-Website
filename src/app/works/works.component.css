@@ -194,20 +194,20 @@ td:hover{
     
     body{
         background-color: rgb(78, 78, 78);
-        height: 450px ; 
+        height: 500px ; 
     }
     .title{
         margin-top: 2%;
         text-align: center;
         color: white;
-        font-size: 120%;
+        font-size: 150%;
     }
     .bar{
-        margin: 0%;
+        margin: 1%;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 40%;
+        width: 35%;
         height: 5%;
     }
     #us{
@@ -227,19 +227,19 @@ td:hover{
     }
     
     tr{
-        height: 100px ;
+        height: 150px ;
         margin:0%;
     }
     
     td{
         width: calc(100%/3);
         border: 3px solid black;
-        height: 100px ;
+        height: 150px ;
     }
     
     .icon > img{
-        width: 100px ;
-        height: 100px ;
+        width: 150px ;
+        height: 150px ;
         margin-left: auto;
         margin-right: auto;
         display: block;

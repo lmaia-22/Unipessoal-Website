@@ -334,14 +334,14 @@
 @media (min-width: 481px) and (max-width: 767px) { 
   .slider {
     width: 100%;
-    height: 200px ;
+    height: 450px ;
     margin: 0%;
   }
 
   .slide1,.slide2,.slide3,.slide4,.slide5 {
     position: absolute;
     width: 100%;
-    height: 200px ;
+    height: 450px ;
   }
   .slide1 {
     background: url(https://tituloseassuntos.tk/assets/Img/first.png)no-repeat center;
