@@ -45,7 +45,61 @@ p{
 p:hover{
     color: rgb(254,253,2);
 }
+     /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 220px to 319px
+  */
+  
+  @media (min-width: 220px) and (max-width: 319px) {
+
+    .nav{
+        overflow: hidden;
+        background-color: #333;
+        position: sticky; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        margin:0%;
+        width: 100%;
+        height: 20px !important;
+        background: #2D2E2E;
+        opacity: 0.8;
+    }
+    #side{
+        float: left;
+        width: 20%;
+    }
     
+    #logo{
+        width: 100%;
+        margin-top : 0.3%;
+    }
+
+    nav {
+        background: #2D2E2E;
+        width: 100%;
+    }
+    ul{
+        list-style-type: none;
+        margin:0%;
+    }
+    li{
+        display: inline-block;
+        padding-left: 2%;
+    }
+    a{
+        color: white;
+    }
+    p{
+        color: white; 
+        font-size: 30%;
+        display: inline-block;
+        text-align: center; 
+    }
+    p:hover{
+        color: rgb(254,253,2);
+    }
+    
+  }
+
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px

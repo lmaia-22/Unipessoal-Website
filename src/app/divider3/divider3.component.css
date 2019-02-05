@@ -1,6 +1,6 @@
 .divider{
     margin-top: 0%;
-    background:url("../../assets/Img/div.png");
+    background:url("https://tituloseassuntos.tk/assets/Img/div.png");
     background-repeat:no-repeat;
     background-size:100% 100%;
 }
@@ -42,6 +42,57 @@ td{
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 220px to 319px
+*/
+
+@media (min-width: 220px) and (max-width: 319px) {
+    .divider{
+        height: 100px;
+        margin: 0%;
+        background:url("https://tituloseassuntos.tk/assets/Img/div.png");
+        background-repeat:no-repeat;
+        background-size:100% 70px;
+    }
+    table{
+        border-spacing: 14px;
+    }
+    
+    tr{
+        height: 40px !important;
+    }
+    
+    td{
+        width: calc(100%/4);
+        background-color: #2D2E2E;
+        margin-left: 200%;
+        height: 40px !important;
+    }
+    
+    .icon{
+        width: 20px !important;
+        height: 20px !important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        display: block;
+    }
+    
+    .Stitle{
+        margin-top: 0%;
+        margin-bottom: 0%; 
+        text-align: center;
+        color: white;
+        font-size: 30%;
+    }
+    
+    .Stitle > p{
+        margin:0%;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
@@ -49,7 +100,7 @@ td{
     .divider{
         height: 100px;
         margin: 0%;
-        background:url("../../assets/Img/div.png");
+        background:url("https://tituloseassuntos.tk/assets/Img/div.png");
         background-repeat:no-repeat;
         background-size:100% 80px;
     }
@@ -99,7 +150,7 @@ td{
     .divider{
         height: 150px;
         margin: 0%;
-        background:url("../../assets/Img/div.png");
+        background:url("https://tituloseassuntos.tk/assets/Img/div.png");
         background-repeat:no-repeat;
         background-size:100% 100px;
     }

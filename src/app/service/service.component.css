@@ -55,7 +55,68 @@ td{
 td:hover{
     background-color: grey; 
 }
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 220px to 319px
+*/
 
+@media (min-width: 220px) and (max-width: 319px) {
+    .title{
+        margin-top: 2%;
+        text-align: center;
+        color: white;
+        font-size: 100%;
+    }
+    .bar{
+        margin: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 5%;
+    }
+    #us{
+        color: rgb(254,253,2);
+    }
+    
+    .six{
+        margin-top: 1%;
+    }
+    
+    tr{
+        height: 75px !important;
+        margin:0%;
+    }
+    td{
+        width: calc(100%/3);
+        border: 3px solid black;
+        background-color: #2D2E2E;
+        height: 25px !important;
+    }
+    
+    .icon{
+        width: 15px !important;
+        height: 15px !important;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .Stitle{
+        margin-top: 5%;
+        text-align: center;
+        color: white;
+        font-size: 40%;
+    }
+    
+    .Stitle > p{
+        margin:0%;
+    }
+    
+    td:hover{
+        background-color: grey; 
+    }
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px

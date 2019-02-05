@@ -45,7 +45,60 @@ body{
     color: white;
     font-size: 130%;
 }
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 220px to 319px
+*/
 
+@media (min-width: 220px) and (max-width: 319px) {
+    .title{
+        margin-top: 3%;
+        text-align: center;
+        color: white;
+        font-size: 100%;
+    }
+    .bar{
+        margin: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 5%;
+    }
+    #us{
+        color: rgb(254,253,2);
+    }
+    body{
+        background-color: rgb(129, 129, 129);
+        height: 250px !important;
+    }
+    #space{
+        margin: 1%;
+        height: 10px;
+    }
+    .two{
+        margin-top: 4%;
+    }
+    
+    /*left chart*/
+    .size, .text{
+        margin-top:2%; 
+        width: 80%;
+        height: 200px !important; 
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .text{
+        position: relative;
+        top: -90px !important;
+    }
+    .text > p{
+        text-align: center;
+        color: white;
+        font-size: 10%;
+    }
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px

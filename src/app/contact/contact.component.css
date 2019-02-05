@@ -127,6 +127,144 @@ input, select, textarea{
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 220px to 319px
+*/
+
+@media (min-width: 220px) and (max-width: 319px) {
+
+    body{
+        height: 200px !important; 
+    }
+    .title{
+        margin-top: 2%;
+        text-align: center;
+        color: white;
+        font-size: 100%;
+    }
+    .bar{
+        margin: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 5%;
+    }
+    #us{
+        color: rgb(254,253,2);
+    }
+    .full{
+        margin-top: 2%;
+        width: 100%;
+    }
+    
+    /*infor contacts*/
+    .left{
+        width: 50%;
+        float: left;
+        height: 100px !important;
+    }
+    h1{
+        color: white;
+        font-size: 60%;
+    }
+    .adjust{
+        margin-left: 2%;
+    }
+    table{
+        border: 1px solid white;
+        border-collapse: 5px;
+        margin:0%;
+        width: 100%;
+    }
+    .tr{
+        height: 30px !important;
+    }
+    .img{
+        width: 10%;
+    }
+    .con{
+        width: 100%;
+        float: left;  
+    }
+    .inf{
+        text-align: center;
+        float: left;
+        color: white;
+        font-size: 30%;
+    }
+    .right{
+        float: left;
+        width: 50%;
+        height: 150px !important;
+    }
+    
+    /*form*/
+    .contactform{
+        margin:0%;
+        text-align: center;
+    }
+    input[type=text]{
+        margin: 2%;
+        height: 10px !important;
+        width: 60%;
+    }
+    input[type=email]{
+        margin: 2%;
+        height: 10px !important;
+        width: 60%;
+    }
+    textarea{
+        margin: 2%;
+        width: 60%;
+    }
+    input[type=checkbox]{
+        width: 10px;
+        height: 10px;
+    }
+    .checkbox{
+        margin: 2%;
+    }
+    label{
+        font-size: 40%;
+        color: white;
+    }
+    button{
+        width: 60%;
+        height: 15px !important;
+        background-color:rgba(254, 254, 2, 0.87);
+        text-align: center;
+        color: white;
+        font-size: 10%;
+        font-family: serif;
+        border: 1px solid white;
+    }
+    ::placeholder {
+        font-size: 50%;
+        color: white;
+        opacity: 1; /* Firefox */
+    }
+      
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        font-size: 60%;
+        color: white;
+    }
+      
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        font-size: 60%;
+        color: white;
+    }
+    
+    input, select, textarea{
+        border: 1px solid white;
+        background: transparent;
+        color: white;
+        font-size: 60%;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 300px to 479px
 */
 
@@ -254,7 +392,7 @@ input, select, textarea{
     }
     
     input, select, textarea{
-        border: 3px solid white;
+        border: 2px solid white;
         background: transparent;
         color: white;
         font-size: 60%;
@@ -306,7 +444,7 @@ input, select, textarea{
         margin-left: 3%;
     }
     table{
-        border: 2px solid white;
+        border: 3px solid white;
         margin:0%;
         width: 90%;
     }
@@ -371,7 +509,7 @@ input, select, textarea{
         color: white;
         font-size: 10%;
         font-family: serif;
-        border: 2px solid white;
+        border: 3px solid white;
     }
     ::placeholder {
         font-size: 80%;
