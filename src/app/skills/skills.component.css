@@ -38,7 +38,7 @@ body{
 }
 .text{
     position: relative;
-    top: -400px !important;
+    top: -480px !important;
 }
 .text > p{
     text-align: center;
