@@ -148,14 +148,14 @@ td{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
+        width: 40%;
         height: 5%;
     }
     #us{
         color: rgb(254,253,2);
     }
     table{
-        width: 80%;
+        width: 100%;
         height: 200px !important;
     }
 
