@@ -1,6 +1,7 @@
 body{
     background-color: rgb(78, 78, 78);
-    height: 650px ; 
+    height: 650px ;
+    margin: 0% !important;
 }
 
 #space{
