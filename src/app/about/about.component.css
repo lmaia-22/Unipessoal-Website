@@ -52,6 +52,7 @@ td{
 .text{
     color: white;
     text-align: center;
+    line-height: 12px;
 }
 
 /*animation*/
@@ -120,6 +121,7 @@ td{
         color: white;
         text-align: center;
         font-size: 40%;
+        line-height: 12px;
     }
     
     /*animation*/
@@ -190,7 +192,6 @@ td{
         color: white;
         text-align: center;
         font-size: 50%;
-        letter-spacing: 1px;
         line-height: 12px;
     }
     
@@ -264,6 +265,7 @@ td{
         color: white;
         text-align: center;
         font-size: 40%;
+        line-height: 12px;
     }
     
     /*animation*/
@@ -336,6 +338,7 @@ td{
         color: white;
         text-align: center;
         font-size: 50%;
+        line-height: 12px;
     }
     
     /*animation*/
